@@ -1,0 +1,47 @@
+/* Responsive Media Queries */
+@media only screen and (max-width: 768px) {
+    .custom_menu-btn,
+    .menu_btn-style {
+      top: 6px;
+    }
+  
+    .detail h1 {
+      font-size: 32px;
+    }
+  
+    .about-section {
+      font-size: 18px;
+    }
+  
+    .haroons_dev_detail-box h2 {
+      font-size: 28px;
+    }
+  
+    .feature-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .custom_menu-btn,
+    .menu_btn-style {
+      top: 4px;
+    }
+  
+    .detail h1 {
+      font-size: 28px;
+    }
+  
+    .about-section {
+      font-size: 16px;
+    }
+  
+    .haroons_dev_detail-box h2 {
+      font-size: 24px;
+    }
+  
+    .feature-card {
+      width: 100%;
+    }
+  }
+  

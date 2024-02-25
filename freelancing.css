@@ -1,0 +1,347 @@
+body {
+    font-family: "Raleway", sans-serif;
+    color: #1b161d;
+    background-color: #ffffff;
+  }
+  
+  
+  .hero_area {
+    background: linear-gradient(45deg, #3498db, #27ae60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+  }
+  
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .header_section .nav_container {
+    margin: 0 auto;
+  }
+  
+  .custom_menu-btn {
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  
+  .custom_menu-btn button {
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .custom_menu-btn button span {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    margin: 7px 0;
+    transition: all 0.3s;
+    border-radius: 5px;
+  }
+  
+  .custom_menu-btn .s-2 {
+    width: 23px;
+    margin-left: auto;
+  }
+  
+  .menu_btn-style {
+    position: fixed;
+    right: 12px;
+    top: 14px;
+  }
+  
+  .custom_menu-btn .s-2 {
+    transition: all 0.1s;
+  }
+  
+  .menu_btn-style button .s-1 {
+    transform: rotate(45deg) translateY(17px);
+  }
+  
+  .menu_btn-style button .s-2 {
+    transform: translateX(100px);
+  }
+  
+  .menu_btn-style button .s-3 {
+    transform: rotate(-45deg) translateY(-17px);
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 40, 46, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 60px;
+  }
+  
+  .overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .menu_width {
+    width: 100%;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    margin: 0 40px 0 15px;
+    background-position: center;
+  }
+  
+  .navbar-brand span {
+    font-family: "Righteous", cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fefeff;
+    margin-top: 5px;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+    background-size: 55px;
+  }
+  
+  .detail {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .detail h1 {
+    font-weight: 600;
+    margin-top: 2%;
+    font-size: 60px;
+  }
+  
+  .detail p {
+    font-size: 20px;
+  }
+  
+  .img_main {
+    width: 55%;
+    margin-left: 20%;
+  }
+  
+  .img_main img {
+    width: 50%;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section {
+    background: white;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 30px;
+  }
+  
+  .section-title {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #4a90e2;
+    font-weight: 700;
+  }
+  
+  .about-us-section {
+    background: linear-gradient(45deg, #3498db, #27ae60);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(214, 189, 3, 0.856);
+    padding: 40px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .about-us-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section p {
+    color: #f0f0f0;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: yellow;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .about-us-section:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .haroons_dev_section {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .haroons_dev_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .haroons_dev_img-box {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .haroons_dev_img-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .haroons_dev_detail-box {
+    flex: 1;
+    padding: 0 30px;
+  }
+  
+  .haroons_dev_detail-box h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #4a90e2;
+    font-weight: 700;
+  }
+  
+  .haroons_dev_detail-box p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .haroons_dev_detail-box a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .haroons_dev_detail-box a:hover {
+    background-color: #0056b3;
+  }
+  
+  .our-features {
+    background-color: #f8f8f8;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .feature-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #4a90e2;
+    font-weight: 700;
+  }
+  
+  .feature-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .feature-card {
+    width: 300px;
+    margin: 20px;
+    border: 2px solid #4a90e2;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .feature-icon-container {
+    background-color: #fefefe;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .feature-icon-box img {
+    width: 120px;
+    height: 130px;
+    border-radius: 20%;
+  }
+  
+  .feature-details-box {
+    padding: 30px;
+  }
+  
+  .feature-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .feature-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
