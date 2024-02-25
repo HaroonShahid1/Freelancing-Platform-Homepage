@@ -7,7 +7,6 @@ This project is a responsive homepage for a freelancing platform named "Haroon's
 - HTML
 - CSS
 - JavaScript
-- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) for image carousel
 - [Bootstrap](https://getbootstrap.com/) for styling
 
 ## Installation
@@ -36,7 +35,6 @@ If you'd like to contribute to this project, please follow these steps:
 5. Submit a pull request.
 
 ## Credits
-- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Font Awesome](https://fontawesome.com/) for icons
 
